@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <!-- Metadata and external resources -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- jQuery library -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- jQuery UI CSS for styling -->
+        <link id="jquery-ui-css" rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <!-- title -->
+        <title>Dashboard</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- JS -->
+        <script src="script.js" defer></script>
+    </head>
+    <body id= "dashboard">
+        <header>
+            <nav>
+                <ul>
+                    <!-- Navigation links to other pages -->
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "dashboard.html">Dashboard</a></li>
+                    <li><a href = "taskManager.html">Task Manager</a></li>
+                    <li><a href = "studyTimer.html">Study Timer</a></li>
+                    <li><a href = "notes.html">Notes</a></li>
+                    <li><a href = "settings.html">Settings</a></li>
+                    <li><a href = "support.html">Support</a></li>
+                    <li><a href = "login.html">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- Dashboard overview section -->
+            <h2> Dashboard Overview</h2>
+            <p>Welcome to your study tracking dashboard. To get started, select one of the features listed below.</p>
+            <!-- Decorative image for the dashboard -->
+            <img src="Dashboard.webp" alt="Dashboard Image">
+            <!-- Section for displaying summary dynamically -->
+            <div id="dashboard-summary" class="dashboard-grid"></div>
+            <!-- Links to key features -->
+            <div class = "dashboard-links">
+                <!-- Link to Task Manager -->
+                <a href = "taskManager.html" class = "dashboard-card"> Task Manager</a>
+                <!-- Link to Study Timer -->
+                <a href= "studyTimer.html" class = "dashboard-card"> Study Timer</a>
+                <!-- Link to Notes -->
+                <a href = "notes.html" class = "dashboard-card"> Notes </a>
+                <!-- Link to Settings -->
+                <a href= "settings.html" class = "dashboard-card"> Settings </a>
+            </div>
+        </main>
+        <footer>
+            <!-- Footer content -->
+            <p>&copy; 2025 Personalized Study Tracker</p>
+        </footer>
+    </body>
+</html>

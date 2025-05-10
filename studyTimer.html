@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Timer</title>
+    <!-- jQuery and jQuery UI libraries -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <!-- jQuery UI and Font Awesome styles -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Toastr library for notifications -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <!-- JS -->
+    <script src="script.js" defer></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="study-timer">
+    <header>
+        <nav>
+            <ul>
+                <!-- Navigation links -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="taskManager.html">Task Manager</a></li>
+                <li><a href="studyTimer.html">Study Timer</a></li>
+                <li><a href="notes.html">Notes</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Main content for the Study Timer -->
+        <h2>Study Timer</h2>
+        <p>Use this timer to track your study sessions effectively.</p>
+        <!-- Image representing the study timer -->
+        <img src="StudyTimer.webp" alt="Study Timer Image">
+        <!-- Timer display -->
+        <div id="timer">25:00</div>
+        <!-- Timer control buttons -->
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+        <button id="reset">Reset</button>
+        <!-- Session count display -->
+        <div id="session-count">Sessions Completed: 0</div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Personalized Study Tracker</p>
+    </footer>
+</body>
+</html>

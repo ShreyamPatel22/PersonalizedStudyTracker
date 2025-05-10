@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Support</title>
+      
+        <!-- jQuery  -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      
+        <!-- Validation Plugin-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+      
+        <!-- Toastr -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+      
+        <!-- jQuery UI -->
+        <link id="jquery-ui-css" rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+      
+        <!-- JS -->
+        <script src="script.js"></script>
+      
+        <!-- CSS -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+
+<body id="support">
+    <!-- Header section with navigation menu -->
+    <header> 
+        <nav>
+            <ul>
+                <!-- Navigation links -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="taskManager.html">Task Manager</a></li>
+                <li><a href="studyTimer.html">Study Timer</a></li>
+                <li><a href="notes.html">Notes</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Support page title -->
+        <h2 id="support-title">Support</h2>
+        <p>Do you need help? Contact us below!</p>
+
+        <!-- Support image -->
+        <img src="Support.webp" alt="The customer support representative sign features a headset and a voice bubble.">
+
+        <div id="form-alert" role="alert" aria-live="assertive" style="display: none;">
+            Your message has been sent!
+        </div>
+
+        <!-- Support form -->
+        <form id="support-form" aria-labelledby="support-title">
+            <!-- Name input field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required aria-required="true"><br><br>
+
+            <!-- Email input field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required aria-required="true"><br><br>
+
+            <!-- Message textarea -->
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required aria-required="true"></textarea><br><br>
+
+            <!-- Submit button -->
+            <button type="submit" aria-label="Send support message">Send</button>
+        </form>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2025 Personalized Study Tracker</p>
+    </footer>
+</body>
+</html>

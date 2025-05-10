@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <!-- Metadata and external resources -->
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- jQuery library -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- jQuery UI CSS for styling -->
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/ui-darkness/jquery-ui.css">
+        <!-- title -->
+        <title>Login</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- JS -->
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <!-- Navigation links to other pages -->
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "dashboard.html">Dashboard</a></li>
+                    <li><a href = "taskManager.html">Task Manager</a></li>
+                    <li><a href = "studyTimer.html">Study Timer</a></li>
+                    <li><a href = "notes.html">Notes</a></li>
+                    <li><a href = "settings.html">Settings</a></li>
+                    <li><a href = "support.html">Support</a></li>
+                    <li><a href = "login.html">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- Login section -->
+            <h2> Login </h2>
+            <p> Please enter your login information to access your study tracker.</p>
+            <!-- Decorative image -->
+            <img src="Login.webp" alt="Login Image">
+            <!-- Login form -->
+            <form>
+                <!-- Username input -->
+                <label for = "username"> Username: </label>
+                <input type = "text" id = "username" name = "username" required>
+                <!-- Password input -->
+                <label for = "password"> Password:</label>
+                <input type = "password" id = "password" name = "password" required>
+                <!-- Submit button -->
+                <button type = "submit">Login</button>
+            </form>
+        </main>
+        <footer>
+            <!-- Footer content -->
+            <p>&copy; 2025 Personalized Study Tracker</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,228 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px; 
+    text-align: center;
+}
+
+/* Light Theme */
+body.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.light-theme main,
+body.light-theme .dashboard-card {
+    background-color: white;
+    color: black;
+}
+
+/* Dark Theme */
+body.dark-theme {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+
+body.dark-theme main,
+body.dark-theme .dashboard-card {
+    background-color: #2b2b2b;
+    color: #f0f0f0;
+}
+
+/* Font Size Themes */
+body.small-font { font-size: 12px; }
+body.large-font { font-size: 18px; }
+
+/* Header/Nav */
+header {
+    background: #067eff;
+    padding: 15px 0;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+/* Main Container */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.dark-theme main {
+    background-color: #2b2b2b;
+    color: #f0f0f0;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: inherit;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.6;
+}
+
+/* Timer */
+#timer {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* Buttons */
+button {
+    background: #2ab84b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #29883e;
+}
+
+.dark-theme button {
+    background-color: #3fa85b;
+    color: white;
+}
+
+.dark-theme button:hover {
+    background-color: #2f8a49;
+}
+
+/* Footer */
+footer {
+    background: #0479f6;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0px -2px 5px rgba(0,0,0,0.1);
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Input fields */
+.dark-theme input,
+.dark-theme select,
+.dark-theme textarea {
+    background-color: #333;
+    color: white;
+    border-color: #555;
+}
+
+.light-theme input,
+.light-theme select,
+.light-theme textarea {
+    background-color: white;
+    color: black;
+    border-color: #ccc;
+}
+
+
+body.dark-theme {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+.dark-theme input,
+.dark-theme textarea {
+    background-color: #333;
+    color: white;
+}
+
+/* Base button style */
+a.button {
+    background: #2ab84b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+a.button:hover {
+    background-color: #188231;
+}
+
+/* Brighter button in dark theme */
+.dark-theme a.button {
+    background: #2ab84b;
+    color: white;
+}
+
+.dark-theme a.button:hover {
+    background-color: #34c35e;
+}
+
+.hidden:not(.show-alert) {
+    display: none;
+}
+#form-alert {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    display: none; /* hidden by default */
+}
+
+/* When alert is shown */
+.show-alert {
+    display: block;
+}
+
+/* Hidden class to hide elements */
+.hidden {
+    display: none;
+}

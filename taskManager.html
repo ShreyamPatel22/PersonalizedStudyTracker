@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    
+    <!-- Include jQuery and jQuery UI libraries -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    
+    <!-- Include Toastr for notifications -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    
+    <!-- Include jQuery UI CSS for styling -->
+    <link id="jquery-ui-css" rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- JS -->
+    <script src="script.js" defer></script>
+</head>
+
+<body id="task-manager">
+    <header>
+        <nav>
+            <ul>
+                <!-- Navigation links to different pages -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="taskManager.html">Task Manager</a></li>
+                <li><a href="studyTimer.html">Study Timer</a></li>
+                <li><a href="notes.html">Notes</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main> 
+        <h2>Task Manager</h2>
+        <p>Organize and manage your study tasks efficiently.</p>
+        <img src="taskManager.webp" alt="Task Manager Image">
+
+        <!-- Input fields for adding tasks -->
+        <input type="text" id="task-input" placeholder="Enter new task">
+        <input type="text" id="due-date" placeholder="Select due date">
+        <button id="add-task">Add Task</button>
+
+        <!-- List to display tasks -->
+        <ul id="task-list">
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Personalized Study Tracker</p>
+    </footer>
+</body>
+</html>

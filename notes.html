@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Metadata and external resources -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- jQuery library -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- Toastr CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
+        <!-- jQuery UI CSS for additional UI components -->
+        <link id="jquery-ui-css" rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <!-- Toastr JS  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+        <!-- title -->
+        <title>Notes</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- JS -->
+        <script src="script.js" defer></script>
+    </head>
+    <body id="notes">
+        <header>
+            <nav>
+                <ul>
+                    <!-- Navigation links to other pages -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="taskManager.html">Task Manager</a></li>
+                    <li><a href="studyTimer.html">Study Timer</a></li>
+                    <li><a href="notes.html">Notes</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- Notes section -->
+            <h2>Notes</h2>
+            <p>Create and manage your notes.</p>
+            <!-- Decorative image -->
+            <img src="Notes.webp" alt="Notes Image">
+            <!-- Textarea for writing notes -->
+            <textarea id="note-input" placeholder="Write your notes here...."></textarea>
+            <!-- Button to save notes -->
+            <button id="save-note">Save Note</button>
+            <!-- Section for displaying saved notes -->
+            <h3>Saved Notes</h3>
+            <ul id="notes-list">
+                <!-- Dynamically added notes will appear here -->
+            </ul>
+        </main>
+        <footer>
+            <!-- Footer content -->
+            <p>&copy; 2025 Personalized Study Tracker</p>
+        </footer>
+    </body>
+</html>
